@@ -25,7 +25,7 @@ Then, edit the configuration file located at /etc/cloudsql/cloudsql.conf, using 
 ```sh
 # Local port to open for MySQL connections. This can be either a port or ipaddress:port
 # If you use an IP address, ensure that your firewall is blocking outside traffic!
-MYSQL_PORT=3306
+DB_PORT=3306
 
 # Instance ID to which the proxy should connect
 INSTANCE_ID=your:googlecloudsql:instanceid
